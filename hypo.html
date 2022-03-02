@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+		<link rel='stylesheet' type='text/css' href="main.css">
+        <html lang="fr">
+        <meta charset="utf-8" />
+        <title>Pythagore</title>
+    </head>
+	
+    <body class="main">
+	
+	
+		<header class="navcenter">
+			<ul class="nav1">	<!--
+				--><li class="nav"><a class="l1" href="index.html">Accueil</a></li><!--
+				--><li class="nav"><a class="l1" href="siage.html">Algorithme Éligibilité</a></li><!--
+				--><li class="nav"><a class="l1" href="somme.html">Somme & Moyenne</a></li><!--
+				--><li class="nav"><a class="l1" href="tqage.html">Algorithme Éligibilité 2</a></li><!--
+				--><li class="nav"><a class="l1" href="multi.html">Tables de Multiplication</a></div><!--
+				--><li class="nav"><a class="l1" href="factor.html">Factorielle</a></li><!--
+				--><li class="nav"><a class="l1" href="impair.html">Nombres Impairs</a></li><!--
+				--><li class="nav"><a class="l1 active" href="hypo.html">Pythagore</a></li><!--
+				--><li class="nav"><a class="l1" href="pendu.html">Jeu du pendu</a></li><!--
+				--><li class="nav"><a class="l1" href="contact.html">Contact</a></li>
+			</ul>
+		</header>
+		
+		<div id="début"></div>
+		
+		
+		<h1 id="debut">Pythagore</h1>
+		
+		<p class="maindiv">Vous pouvez ici : Soit calculer l'hypoténuse d'un triangle rectangle en entrant les longueurs des deux autres côtés, soit calculer la longueur d'un autre côté (de l'angle droit) connaissant l'hypoténuse.</p>
+		
+			<div id="radiohypo">
+					<input type="radio" name="hypo" value="homme" id="cotehypo" />Pour calculer l'hypoténuse (h)
+					<input type="radio" name="hypo" value="femme" id="coteautre" />Pour calculer un autre côté (a ou b)
+			</div>
+		
+		<div id="divhypo">
+			
+			<div class="maindiv">
+			<p>
+				Entrez la longueur du premier côté (a) :
+				<input type="text" name="cote" placeholder="" id="cote1"  class="size"required />
+			</p>
+			<p>
+				Entrez la longueur du second côté (b) :
+				<input type="text" name="cote" placeholder="" id="cote2"  class="size"required />
+			</p>
+			<p><input type="submit" value="Valider" id="button1" /></p>
+			</div>
+			<div class="spacee" id="divresult0"></div>
+
+			<div id="hideshow">
+			<input type="submit" value="Recommencer" id="button3" />
+			</div>
+		</div>
+		
+		<div id="divautre">
+
+			<div class="maindiv">
+			<p>
+				Entrez la longueur de l'hypoténuse (h) :
+				<input type="text" name="cote" placeholder="" id="cote1a"  class="size"required />
+			</p>
+			<p>
+				Entrez la longueur de l'autre côté connu (a ou b) :
+				<input type="text" name="cote" placeholder="" id="cote2a"  class="size"required />
+			</p>
+			<p><input type="submit" value="Valider" id="button2" /></p>
+			</div>
+			<div class="spacee" id="divresult1"></div>
+
+			<div id="hideshow">
+			<input type="submit" value="Recommencer" id="button3" />
+			</div>
+			<div id="hideshow2">
+			<input type="submit" value="Recommencer" id="button4" />
+			</div>
+		</div>
+		<div class="img">
+			<img src="photo/triangle.PNG" alt="Un triangle rectangle" class="im"/>
+		</div>
+	<footer class="footerspace2">
+		<p>
+			<a href="#début"><p class="footer">Retour au début</p></a>
+			<a href="index.html"><p class="footer">Retour à l'accueil</p></a> 
+			<p class="footerright">Page réalisée par Guillaume Burgnies</p>
+			
+		</p>
+	</footer>
+	<script src="JS/hypo.js"></script>
+</body>
+</html>

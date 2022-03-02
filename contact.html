@@ -1,0 +1,86 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+		<link rel='stylesheet' type='text/css' href="main.css">
+        <html lang="fr"> 
+        <meta charset="utf-8" /> 
+        <title>Contact</title> 
+    </head> 
+	
+    <body class="contactpage">
+		
+       	<header class="navcenter">
+			<ul class="nav1">	<!--
+				--><li class="nav"><a class="l1" href="index.html">Accueil</a></li><!--
+				--><li class="nav"><a class="l1" href="ecureuil.html">L'écureuil</a></li><!--
+				--><li class="nav"><a class="l1" href="loup.html">Le loup</a></li><!--
+				--><li class="nav"><a class="l1" href="lynx.html">Le lynx</a></li><!--
+				--><li class="nav"><a class="l1" href="elephant.html">L'élephant</a></div><!--
+				--><li class="nav"><a class="l1" href="girafe.html">La girafe</a></li><!--
+				--><li class="nav"><a class="l1" href="ours.html">L'ours</a></li><!--
+				--><li class="nav"><a class="l1" href="baleine.html">La baleine</a></li><!--
+				--><li class="nav"><a class="l1" href="dauphin.html">Le dauphin</a></li><!--
+				--><li class="nav"><a class="l1" href="aigle.html">L'aigle</a></li><!--
+				--><li class="nav"><a class="l1 active" href="contact.html">Contact</a></li>
+			</ul>
+		</header>
+		
+        <section>
+	        <div class="titrecontact">            
+                <p>FORMULAIRE DE CONTACT</p>
+            </div>
+		</section>
+		
+		<form id="formctc" method="get" action="http://www.afpa.fr">
+			<p>
+				* Nom :
+				<input type="text" name="le_nom" placeholder="Nom" id="nom" required />
+			</p>
+			<p>
+				* Prénom :
+				<input type="text" name="le_prenom" placeholder="Prénom" id="prenom" required />
+			</p>	
+			<p>
+				* E-mail :
+				<input type="text" name="email" id="mail" required />
+			</p>			
+			<p>
+				Date de naissance :
+				<input type="text" name="le_prenom" id="birth"/>
+			</p>
+			<p>
+				Adresse :
+				<input type="text" name="adresse" id="adresse" />
+			</p>	
+			<p>
+				Ville :
+				<input type="text" name="ville" id="ville" />
+			</p>		
+			<p>
+				Code postal :
+				<input type="text" name="postal" id="postal" />
+			</p>	
+			<p>
+				<span class="backg">
+					<input type="radio" name="sexe" value="homme" />Vous êtes un homme
+					<input type="radio" name="sexe" value="femme" />Vous êtes une femme
+				</span>
+			</p>
+
+			<textarea placeholder="Votre message" rows:"120" cols="80" ></textarea>
+
+			<p><span class="backg">* Champs obligatoires</span></p>
+			
+
+			<p>
+				<input type="submit" value="Valider" id="button1" />
+				<input type="reset" value="Annuler" id="button2" /> 
+			</p>
+	
+		</form>
+			
+
+			
+		<script src="main.js"></script>
+    </body> 
+</html>

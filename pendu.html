@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<link rel='stylesheet' type='text/css' href="main.css">
+		<title>Le jeu du pendu</title>
+		<meta charset="utf-8" />
+	</head>
+
+
+	<body id="corps">
+
+		<header class="navcenter">
+			<ul class="nav1">	<!--
+				--><li class="nav"><a class="l1" href="index.html">Accueil</a></li><!--
+				--><li class="nav"><a class="l1" href="siage.html">Algorithme Éligibilité</a></li><!--
+				--><li class="nav"><a class="l1" href="somme.html">Somme & Moyenne</a></li><!--
+				--><li class="nav"><a class="l1" href="tqage.html">Algorithme Éligibilité 2</a></li><!--
+				--><li class="nav"><a class="l1" href="multi.html">Tables de Multiplication</a></div><!--
+				--><li class="nav"><a class="l1" href="factor.html">Factorielle</a></li><!--
+				--><li class="nav"><a class="l1" href="impair.html">Nombres Impairs</a></li><!--
+				--><li class="nav"><a class="l1" href="hypo.html">Pythagore</a></li><!--
+				--><li class="nav"><a class="l1 active" href="pendu.html">Jeu du pendu</a></li><!--
+				--><li class="nav"><a class="l1" href="contact.html">Contact</a></li>
+			</ul>
+		</header>
+		
+			<div id="début"></div>
+			
+			<h1 id="debutpendu">LE JEU DU PENDU</h1>
+	
+			<div class="containerPendu">
+				<div id="statut">Statut : Le joueur 1 doit entrer un mot secret</div>	
+
+				<div id="indication2">
+					<input type="text" name="secret" placeholder="Entrez le mot secret" id="mot_secret" required />
+					<input type="submit" value="Valider" id="buttonsecret" />
+				</div>
+
+				<div id="validation"><input type="submit" value="Valider" id="buttonvalid" /></div>
+
+				<div id="indication1">
+					<input type="text" name="lettre" placeholder="Lettre" id="lettreEntree" maxlength="1" required />
+					<input type="submit" value="Valider" id="buttonlettre" />
+				</div>
+				<div class="imagesPendu">
+					<img id="img1" src="images/1.png"/>
+					<img id="img2" src="images/2.png"/>
+					<img id="img3" src="images/3.png"/>
+					<img id="img4" src="images/4.png"/>
+					<img id="img5" src="images/5.png"/>
+					<img id="img6" src="images/6.png"/>
+					<img id="img7" src="images/7.png"/>
+					<img id="img8" src="images/8.png"/>
+					<img id="img9" src="images/9.png"/>
+					<img id="img10" src="images/10.png"/>
+					<img id="img11" src="images/11.jpg"/>
+				</div>	
+			</div>
+
+		
+	<footer class="footerspace3">
+		<p>
+			<a href="#début"><p class="footer3">Retour au début</p></a>
+			<a href="index.html"><p class="footer3">Retour à l'accueil</p></a> 
+			<p class="footerright3">Page réalisée par Guillaume Burgnies</p>
+			
+		</p>
+	</footer>
+		<script src="JS/pendu2.js"></script>
+	</body>
+	
+</html>
